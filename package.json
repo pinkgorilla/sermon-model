@@ -1,0 +1,27 @@
+{
+  "name": "sermon-model",
+  "version": "1.0.0",
+  "description": "Sermon model",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinkgorilla/sermon-model.git"
+  },
+  "author": "Tris Setiawan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pinkgorilla/sermon-model/issues"
+  },
+  "homepage": "https://github.com/pinkgorilla/sermon-model#readme",
+
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "capital-models": "git+https://git@github.com/pinkgorilla/capital-models.git",
+    "should": "^10.0.0"
+  }
+}
