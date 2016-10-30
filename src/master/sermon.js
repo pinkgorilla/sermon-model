@@ -9,6 +9,8 @@ module.exports = class Sermon extends BaseModel {
         //Define properties
         this.title = '';
         this.artist = '';
+        this.minute = 0;
+        this.second = 0;
         this.duration = 0;
         this.year = 0;
         this.month = 0;
