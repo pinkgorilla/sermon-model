@@ -4,4 +4,6 @@ var test = function(name, path) {
     })
 }
  
+test('@auth', './auth-test');
 test('@master', './master-test'); 
+test('@date', './date-test'); 
